@@ -1,0 +1,23 @@
+nav {
+  background: -webkit-linear-gradient(
+    left,
+    rgb(9, 8, 78),
+    #0b0991,
+    #2005b5,
+    #3b32be
+  );
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: bold;
+  font-family: "Montserrat";
+  margin-left: 10px;
+}
+.navbar-brand {
+  color: #fff !important; /* White text color for the brand */
+}
+
+.navbar-nav .nav-link.active {
+  font-size: larger;
+  text-shadow: 1px 1px 1px white;
+}
